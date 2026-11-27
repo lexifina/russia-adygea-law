@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T06:14:29Z",
+ "generated": "2026-11-27T06:07:17Z",
  "latest": {
   "pravo-adygea|russia/adygea/acts": {
    "attempt": 1,
@@ -13,37 +13,25 @@
    },
    "census": {
     "checked": 1295,
-    "current": 1288,
+    "current": 1295,
     "gone": 0,
-    "held": 1288,
-    "newest_in_repo": "2026-10-26",
-    "pending": 7,
-    "repo": 1288,
+    "held": 1295,
+    "newest_in_repo": "2026-11-25",
+    "pending": 0,
+    "repo": 1295,
     "source_in_scope": 1295
    },
-   "check_id": "ru-pravo-adygea-20261126T051445Z",
-   "commits": {
-    "count": 2,
-    "from": "00c35cf250eb5394a779fb73d72643fe5525b45f",
-    "to": "a3430126241840022c58322b4dd6c324c3ea2c94"
-   },
+   "check_id": "ru-pravo-adygea-20261127T051052Z",
+   "commits": null,
    "corpus": "russia/adygea/acts",
    "error": null,
-   "finished": "2026-11-26T05:15:40Z",
+   "finished": "2026-11-27T05:11:31Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region01: 1295 law-type documents listed (every page read); 1288 held here; 7 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region01: 1295 law-type documents listed (every page read); 1295 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "0100202611250003",
-     "0100202611250005",
-     "0100202611250007",
-     "0100202611250008",
-     "0100202611250010",
-     "0100202611250011",
-     "0100202611250012"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
@@ -51,34 +39,16 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "0100202611250003",
-     "0100202611250005",
-     "0100202611250007",
-     "0100202611250008",
-     "0100202611250010",
-     "0100202611250011",
-     "0100202611250012"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1295 law-type documents in block region01; newest published 2026-11-25",
    "source": "pravo-adygea",
-   "started": "2026-11-26T05:14:45Z",
+   "started": "2026-11-27T05:10:52Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 1,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261126-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
